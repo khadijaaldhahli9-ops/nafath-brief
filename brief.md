@@ -34,4 +34,8 @@ Under Oman's Personal Data Protection Law, processing generally requires explici
 Resource: Royal Decree No. 6/2022 Promulgating the Personal Data Protection Law - https://mjla.gov.om/laws/ar/1/show/183
 
 ## Misconception in My Track
+A common misconception is that a login-risk model is ready for launch once it achieves high accuracy. NIST's AI RMF 1.0, in Section 2.3 "Trustworthy AI Characteristics," says trustworthy AI systems are "valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed." This shows that accuracy alone is not enough. For this service, the authority should test bias, privacy, security, reliability, and human oversight under realistic login conditions before deployment.
+
 ## Open Question
+How will the authority set an acceptable false-positive rate for login challenges without unfairly burdening users with limited connectivity or shared devices?
+
