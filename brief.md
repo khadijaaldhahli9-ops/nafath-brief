@@ -19,7 +19,19 @@ Android distinguishes normal permissions from dangerous ones, which protect sens
 Resource: Request runtime permissions - https://developer.android.com/training/permissions/requesting
 
 ## Networking
+DNS over HTTPS (DoH) sends DNS queries and responses over HTTPS between a device and its chosen resolver. Encryption protects the exchange in transit, making it harder for observers on that path to read or alter lookups. DoH does not hide queries from the resolver, conceal the device's IP address or all later connections from network observers, or replace HTTPS for the government website. It protects one layer of DNS privacy, not anonymity.
+
+Resource: RFC 8484: DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/rfc/rfc8484.html
+
 ## Cybersecurity
+Phishing resistance requires the authentication protocol to prevent an impostor verifier from obtaining usable authentication secrets or outputs without relying on the user's vigilance. FIDO2/WebAuthn authenticators can meet this through verifier-name binding: the cryptographic response is tied to the legitimate site's origin. Manually entered SMS, email, or authenticator-app OTPs are not phishing-resistant because a fake site can relay them. Ordinary push approval is also not enough unless the protocol provides verifier binding.
+
+Resource: NIST SP 800-63B-4: Authentication and Authenticator Management - https://pages.nist.gov/800-63-4/sp800-63b.html
+
 ## Data
+Under Oman's Personal Data Protection Law, processing generally requires explicit consent unless a legal exception applies. Before processing, the controller must notify the data subject in writing of the controller, purpose, source, and main rights. The controller and processor must keep data confidential, report breaches, retain records only as required by law, and follow restrictions on transfers outside Oman. Sensitive data has special rules.
+
+Resource: Royal Decree No. 6/2022 Promulgating the Personal Data Protection Law - https://mjla.gov.om/laws/ar/1/show/183
+
 ## Misconception in My Track
 ## Open Question
